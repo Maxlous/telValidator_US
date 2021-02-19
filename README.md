@@ -1,6 +1,6 @@
 # Solution for Telephone Number Validator (US) Project on FreeCodeCamp without Regular Expressions
 
-- Even though Hint 1 for the project says “There is no way around it, you will need to brush up your regular expressions skills,” there is a way! Since I don't like using regular expressions that much, I tried to solve the problem without ever using them. I know it means more code, but it is an alternative for those who is like me. So far did not see anybody solve the problem with this way, thus, thought to share it. 
+- Even though Hint 1 for the project says “There is no way around it, you will need to brush up your regular expressions skills,” there is a way! Since I don't like using regular expressions that much, I tried to solve the problem without ever using them. I know it means more code, but it is an alternative for those who is like me. So far did not see anybody solve the problem in this way, thus, thought to share it. 
 
 ## Project Description
 
