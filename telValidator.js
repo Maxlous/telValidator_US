@@ -12,10 +12,10 @@ function telephoneCheck(str) {
     let strArr = str.split("");
     let paranthesis = strArr.filter(function(char) {
       return char === ")" || char === "("
-    }); console.log(paranthesis);
+    });
     let dash = strArr.filter(function(char) {
       return char === "-"
-    }); console.log(dash);
+    }); 
     if (paranthesis.length >=1 && dash.length > 1){
       return false
     }
