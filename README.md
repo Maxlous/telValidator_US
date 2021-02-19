@@ -22,4 +22,4 @@
 - For this challenge you will be presented with a string such as 800-692-7753 or 8oo-six427676;laskdjf. Your job is to validate or reject the US phone number based on any combination of the formats provided above. The area code is required. If the country code is provided, you must confirm that the country code is 1. Return true if the string is a valid US phone number; otherwise return false.
 
 ![Possible Inputs 1](https://github.com/Maxlous/telValidator_US/blob/main/ss1.PNG)
-![Possible Inputs 2](./ss2.png)
+![Possible Inputs 2](https://github.com/Maxlous/telValidator_US/blob/main/ss2.PNG)
