@@ -5,24 +5,24 @@ function telephoneCheck(str) {
     let total = [];
     for (let i =0; i<str.length;i++){
       let num = parseInt(str[i]);
-      if (num === 0 || num === 1 || num === 2 || num === 3 || num === 4 || num === 5 || num === 6 || num === 7 || num === 8 ||num === 9){
+      if (Number.isInteger(num)){
         total.push(num)
       }
     }
     let strArr = str.split("");
     let paranthesis = strArr.filter(function(char) {
       return char === ")" || char === "("
-    }); console.log(paranthesis);
+    });
     let dash = strArr.filter(function(char) {
       return char === "-"
-    }); console.log(dash);
+    }); 
     if (paranthesis.length >=1 && dash.length > 1){
       return false
     }
     else if (paranthesis.length > 3 || paranthesis.length === 1){
       return false
     }
-    else if (total.length > 11){
+    else if (total.length > 11 || total.length < 10){
       return false
     }
     else if (total.length === 11){
@@ -31,9 +31,6 @@ function telephoneCheck(str) {
       } else {
         return false
       }
-    }
-    else if (total.length < 10){
-      return false
     }
     else if (total.length === 10) {
       return true
